@@ -49,6 +49,7 @@ body{
 #nav-list{
   display:flex;
   flex-flow: row;
+  padding: 0;
   
 }
 
@@ -208,6 +209,8 @@ footer > p{
 
 
 @media (max-width: 500px) {
+
+
   
   #navbar{
       justify-content:center;
@@ -215,7 +218,8 @@ footer > p{
   }
   
 li{
-  margin-right:2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   list-style-type:none;
 }
   
